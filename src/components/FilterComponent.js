@@ -6,14 +6,17 @@ class FilterComponent extends React.Component{
         return(
         <>
             <div style={{display: 'flex', justifyContent: 'center', padding: '10px'}}>
-                <div style={{flexBasis: 200px}}>
+                <div style={{flexBasis: '200px'}}>
                     <h5>Bus stop code:</h5><br />
                     <select className="form-control">
-                        <option>Select </option>
+                        <option>Select Bus Stop Code</option>
+                        {this.props.listBusStopCode.map((row, id) => {
+                        return <option key={id}>{row.BusStopCode}</option>;
+                        })}
                     </select>
                 </div>
 
-                <div style={{flexBasis: 200px}}>
+                <div style={{flexBasis: '200px'}}>
                     <h5>Bus number:</h5><br />
                     <select className="form-control">
                         <option>Select </option>
