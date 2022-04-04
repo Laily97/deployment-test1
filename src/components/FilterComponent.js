@@ -6,14 +6,14 @@ class FilterComponent extends React.Component{
         return(
         <>
             <div style={{display: 'flex', justifyContent: 'center', padding: '10px'}}>
-                <div style={{flex-basis: 200px}}>
+                <div style={{flexBasis: 200px}}>
                     <h5>Bus stop code:</h5><br />
                     <select className="form-control">
                         <option>Select </option>
                     </select>
                 </div>
 
-                <div style={{flex-basis: 200px}}>
+                <div style={{flexBasis: 200px}}>
                     <h5>Bus number:</h5><br />
                     <select className="form-control">
                         <option>Select </option>
