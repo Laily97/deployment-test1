@@ -1,12 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import FilterComponent from 'components/FilterComponent';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>For test</p>
-      </header>
+      <FilterComponent />
     </div>
   );
 }
