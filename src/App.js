@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <FilterComponent />
-      <div style={{display: 'flex';}}>
+      <div style={{display: 'flex'}}>
           <BusTypeComponent />
       </div>
       

@@ -5,7 +5,7 @@ class BusTypeComponent extends React.Component{
     render(){
         return(
         <>
-            <div style={{border: '1px solid'; display: 'flex'}}>
+            <div style={{border: '1px solid', display: 'flex'}}>
                 <div>
                     <label>Bus stop code:</label><br />
                     <select className="form-control">
