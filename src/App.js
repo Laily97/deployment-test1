@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import FilterComponent from 'components/FilterComponent';
+import FilterComponent from './components/FilterComponent';
 
 function App() {
   return (
