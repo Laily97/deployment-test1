@@ -3,14 +3,16 @@ import React from "react";
 class FilterComponent extends React.Component{
     constructor(){
         super();
-        this.state = ({
+        this.state = {
             selectBusStopCode: null
-        })
+        }
     }
 
     handleChange(e){
-        this.setState({selectBusStopCode:e.target.value});
-        alert(e.target.value);
+        this.setState({
+            selectBusStopCode:e.target.value
+        });
+        console.log(e.target.value);
     }
 
     render(){
