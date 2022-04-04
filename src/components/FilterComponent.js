@@ -5,7 +5,7 @@ class FilterComponent extends React.Component{
     render(){
         return(
         <>
-            <div style={{display: 'flex'}}>
+            <div style={{display: 'flex', justifyContent: 'center', padding: '10px'}}>
                 <div>
                     <label>Bus stop code:</label><br />
                     <select className="form-control">
